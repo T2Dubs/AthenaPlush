@@ -6,10 +6,13 @@
   "name":"obj_chair_green_front",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Furniture",
+    "path":"folders/Objects/Furniture.yy",
   },
-  "parentObjectId":{"name":"obj_furniture","path":"objects/obj_furniture/obj_furniture.yy",},
+  "parentObjectId":{
+    "name":"obj_furniture",
+    "path":"objects/obj_furniture/obj_furniture.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{"name":"spr_int_objects_chair_green_front","path":"sprites/spr_int_objects_chair_green_front/spr_int_objects_chair_green_front.yy",},
+  "spriteId":{
+    "name":"spr_int_objects_chair_green_front",
+    "path":"sprites/spr_int_objects_chair_green_front/spr_int_objects_chair_green_front.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

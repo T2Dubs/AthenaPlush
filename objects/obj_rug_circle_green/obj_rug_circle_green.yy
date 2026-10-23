@@ -6,10 +6,13 @@
   "name":"obj_rug_circle_green",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Rugs",
+    "path":"folders/Objects/Rugs.yy",
   },
-  "parentObjectId":{"name":"obj_rug","path":"objects/obj_rug/obj_rug.yy",},
+  "parentObjectId":{
+    "name":"obj_rug",
+    "path":"objects/obj_rug/obj_rug.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{"name":"spr_int_objects_rug_circle_green","path":"sprites/spr_int_objects_rug_circle_green/spr_int_objects_rug_circle_green.yy",},
+  "spriteId":{
+    "name":"spr_int_objects_rug_circle_green",
+    "path":"sprites/spr_int_objects_rug_circle_green/spr_int_objects_rug_circle_green.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

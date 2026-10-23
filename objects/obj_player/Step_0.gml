@@ -8,4 +8,15 @@ if (_h != 0 || _v != 0)
 	y += (_v / _len) * move_speed * 0.5;
 }
 
+if (door_cooldown > 0)
+{
+	door_cooldown--;
+}
+else
+{
+	var _door = instance_place(x, y, obj_door);
+	if (_door != noone)
+		obj_game.go_through(_door.dir);
+}
+
 depth = -y;

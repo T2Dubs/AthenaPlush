@@ -6,10 +6,13 @@
   "name":"obj_floor_darkwood",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Floors",
+    "path":"folders/Objects/Floors.yy",
   },
-  "parentObjectId":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},
+  "parentObjectId":{
+    "name":"obj_floor",
+    "path":"objects/obj_floor/obj_floor.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{"name":"spr_int_floors_darkwood","path":"sprites/spr_int_floors_darkwood/spr_int_floors_darkwood.yy",},
+  "spriteId":{
+    "name":"spr_int_floors_darkwood",
+    "path":"sprites/spr_int_floors_darkwood/spr_int_floors_darkwood.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

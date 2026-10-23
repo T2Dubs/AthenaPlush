@@ -6,10 +6,13 @@
   "name":"obj_fridge_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Furniture",
+    "path":"folders/Objects/Furniture.yy",
   },
-  "parentObjectId":{"name":"obj_furniture","path":"objects/obj_furniture/obj_furniture.yy",},
+  "parentObjectId":{
+    "name":"obj_furniture",
+    "path":"objects/obj_furniture/obj_furniture.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{"name":"spr_int_objects_fridge_1","path":"sprites/spr_int_objects_fridge_1/spr_int_objects_fridge_1.yy",},
+  "spriteId":{
+    "name":"spr_int_objects_fridge_1",
+    "path":"sprites/spr_int_objects_fridge_1/spr_int_objects_fridge_1.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
